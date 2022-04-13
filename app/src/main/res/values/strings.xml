@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Book Reader</string>
+    <string name="chapter_">CHAPTER(10)</string>
+    <string name="new_book_0">NEW BOOK (0)</string>
+    <string name="no_page_number">NO PAGE NUMBER</string>
+    <string name="chapter_1">CHAPTER 1</string>
+    <string name="book">BOOK</string>
+    <string name="headline">headline</string>
+    <string name="search">search</string>
+    <string name="recyclerview">RecyclerView containing book</string>
+    <string name="title_profile" tools:keep="@string/title_profile">Profile</string>
+    <string name="title_activity_navigation" tools:keep="@string/title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open" tools:keep="@string/navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close" tools:keep="@string/navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" tools:keep="@string/nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle" tools:keep="@string/nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc" tools:keep="@string/nav_header_desc">Navigation header</string>
+    <string name="action_settings" tools:keep="@string/action_settings">Settings</string>
+
+    <string name="menu_home" tools:keep="@string/menu_home">Home</string>
+    <string name="menu_gallery" tools:keep="@string/menu_gallery">Gallery</string>
+    <string name="menu_slideshow" tools:keep="@string/menu_slideshow">Slideshow</string>
+    <string name="menu_tools" tools:keep="@string/menu_tools">Tools</string>
+    <string name="menu_share" tools:keep="@string/menu_share">Share</string>
+    <string name="menu_send" tools:keep="@string/menu_send">Send</string>
+    <string name="filter_name">Filter</string>
+    <string name="search_title">Search</string>
+    <string name="science">Science</string>
+    <string name="enter_name">Enter name</string>
+    <string name="all_books">ALL BOOKS</string>
+    <string name="enter_category">Enter category</string>
+    <string name="Result">Result</string>
+</resources>

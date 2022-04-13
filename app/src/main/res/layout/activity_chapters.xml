@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChaptersActivity">
+
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00b894">
+
+
+        <View
+            android:id="@+id/back_main"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_chevron_left_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt_chapter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/back_main"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="start"
+
+            android:text="@string/chapter_"
+            android:textAlignment="viewStart"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_chapter"
+        android:layout_width="match_parent"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:layout_height="match_parent"
+        android:padding="8dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent" tools:keep="@color/colorAccent">#D81B60</color>
+    <color name="bgBottomNavigation" tools:keep="@color/bgBottomNavigation">#fe485a</color>
+    <color name="main_color">#00b894</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_80">#37474F</color>
+</resources>

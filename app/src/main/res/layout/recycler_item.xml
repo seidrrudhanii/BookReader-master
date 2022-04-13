@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:padding="6dp"
+    android:layout_height="250dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="2dp"
+        android:background="#81ecec"
+        android:layout_margin="2dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp" >
+
+    <FrameLayout
+        android:background="#81ecec"
+        android:layout_width="match_parent"
+        android:layout_margin="6dp"
+        android:fadingEdge="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_comic"
+            android:layout_margin="6dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/recyclerview" />
+
+        <TextView
+            android:id="@+id/comic_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="10dp"
+            android:layout_margin="6dp"
+            android:background="#43cea2"
+            android:text="@string/book"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

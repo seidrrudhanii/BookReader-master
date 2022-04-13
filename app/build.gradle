@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.seid.bookreader"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.1.0'
+    implementation 'androidx.navigation:navigation-ui:2.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+    implementation 'com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.sdsmdg.tastytoast:tastytoast:0.1.1'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+    implementation 'com.airbnb.android:lottie:2.7.0'
+    implementation 'com.github.mayuce:LottieAlertDialog:1.1'
+//    implementation 'com.jcminarro:RoundKornerLayouts:0.4.0'
+    implementation 'com.alespero:expandable-cardview:0.8'
+    implementation 'com.github.crosswall:Android-Coverflow:release-v1.0.5'
+    implementation 'com.nightonke:boommenu:2.1.1'
+    implementation 'com.linroid.filtermenu:library:0.2.3'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.rbddevs.splashy:splashy:1.1.0'
+
+
+    implementation 'com.github.clans:fab:1.6.4'
+    //ripple layout
+    implementation 'com.balysv:material-ripple:1.0.2'
+
+
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+// Add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+
+    // Add the SDKs for any other Firebase products you want to use in your app
+    // For example, to use Firebase Authentication and Cloud Firestore
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.firebase:firebase-firestore:21.2.1'
+
+    // Getting a "Could not find" error? Make sure that you've added
+    // Google's Maven repository to your root-level build.gradle file
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+}
+apply plugin: 'com.google.gms.google-services'
